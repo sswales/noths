@@ -19,9 +19,9 @@ describe('Gilded Rose', () => {
   const days = 15;
   const gildedRose = new Shop(items);
   for (let day = 0; day < days; day++) {
-    console.log(`\n-------- day ${day} --------`);
-    it(`should return expected quality after ${day} days`, () => {
+    it(`should return expected quality after ${day} day's`, () => {
       expect(gildedRose.updateQuality()).toMatchSnapshot();
     });
   }
 });
+git s
