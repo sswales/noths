@@ -1,0 +1,14 @@
+{
+  "name": "@sswales/noths-test",
+  "version": "1.0.0",
+  "description": "Gilded Rose test for NOTHS",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
