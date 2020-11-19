@@ -1,7 +1,7 @@
 const { Shop, Item } = require('../gilded_rose');
 
 describe('Gilded Rose', () => {
-  describe('Shop', () => {
+  describe('Shop > Items', () => {
     it('should retain list when > 0 passed to Shop', () => {
       const testData = [
         new Item('foo', 1, 3),
@@ -18,7 +18,7 @@ describe('Gilded Rose', () => {
       });
     });
   });
-  describe('Quality', () => {
+  describe('Shop > Quality', () => {
     const testData = [
       ['foo', 1, 2, { name: 'foo', quality: 1, sellIn: 0 }],
       ['bar', 2, 3, { name: 'bar', quality: 2, sellIn: 1 }],
