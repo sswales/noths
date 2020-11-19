@@ -5,6 +5,8 @@
   "license": "MIT",
   "scripts": {
     "test": "jest",
+    "test:unit": "jest --config=.jest.config.unit.json",
+    "test:integration": "jest --config=.jest.config.integration.json",
     "test:watch": "jest --watchAll --no-cache"
   },
   "devDependencies": {
